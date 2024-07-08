@@ -1,0 +1,10 @@
+type: framework
+content:
+  - Setting up the repository
+  - GitHub Actions basics
+  - Interacting with GitHub Issues
+  - Getting our Issues straight
+  - Interacting with ChatGPT
+  - Opening a pull request
+  - Convert to a reusable action
+current_task: 1

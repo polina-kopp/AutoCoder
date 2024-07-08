@@ -1,0 +1,28 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>In this stage, you will develop a basic workflow file to recap the basics. The action runs on push events and prints "Hello, world!"</p>
+<h5 id="objectives">Objectives</h5>
+<p>Create a <code class="language-yaml">main.yml</code> inside the <code class="language-yaml">.github/workflows/</code> directory with the following properties:</p>
+<ul>
+<li>It is triggered on push events;</li>
+<li>It has one job named <code class="language-yaml">say_hello</code> with two steps;</li>
+<li>The first step uses the <code class="language-yaml">actions/checkout</code> action to checkout the repository;</li>
+<li>The second step runs a shell command to display "Hello, world" with the <code class="language-yaml">echo</code> command;</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1:</strong></p>
+<pre><code class="language-yaml">name: Workflow Name
+# trigger
+  # Define the event here
+
+jobs:
+  job_name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        # actions/checkout
+
+      - name: Greeting Message
+        # Write the command here
+</code></pre>
+</div>

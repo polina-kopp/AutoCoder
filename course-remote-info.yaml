@@ -1,0 +1,182 @@
+hyperskill_project:
+  id: 458
+  ide_files: https://cogniterra.org/media/attachments/lesson/38647/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Mon, 08 Jul 2024 10:53:52 UTC"
+stages:
+  - id: 2644
+    step: 46443
+    is_completed: true
+  - id: 2645
+    step: 46444
+    is_completed: false
+  - id: 2646
+    step: 46445
+    is_completed: false
+  - id: 2647
+    step: 46446
+    is_completed: false
+  - id: 2648
+    step: 46447
+    is_completed: false
+  - id: 2649
+    step: 46448
+    is_completed: false
+  - id: 2650
+    step: 46449
+    is_completed: false
+topics:
+  0:
+    - title: Starting with GitHub
+      theory_id: 4802
+    - title: Publishing your project on GitHub
+      theory_id: 30945
+    - title: Publishing project to github via Git console
+      theory_id: 44389
+    - title: Starting with git
+      theory_id: 10894
+    - title: Local repository
+      theory_id: 10901
+    - title: Working with remote repository
+      theory_id: 12299
+    - title: Documentation
+      theory_id: 12069
+  1:
+    - title: Introduction to CI/CD
+      theory_id: 19773
+    - title: Operating systems
+      theory_id: 9704
+    - title: Command line overview
+      theory_id: 8977
+    - title: Parameters and options
+      theory_id: 9746
+    - title: Introduction to GitHub actions
+      theory_id: 20403
+    - title: First program in bash
+      theory_id: 12135
+    - title: Functions and arguments
+      theory_id: 12188
+    - title: File descriptors and pipes
+      theory_id: 12475
+    - title: Running a "hello world" action
+      theory_id: 20853
+    - title: Using external workflows
+      theory_id: 21539
+    - title: YAML
+      theory_id: 12722
+    - title: Introduction to Linux
+      theory_id: 9526
+  2:
+    - title: Hexadecimal numbers
+      theory_id: 8788
+    - title: Fork and pull request
+      theory_id: 4803
+    - title: Personal Access token
+      theory_id: 40645
+    - title: GitHub API
+      theory_id: 46583
+    - title: Github Issues
+      theory_id: 46957
+    - title: HTTP URL
+      theory_id: 6740
+    - title: HTTP messages
+      theory_id: 6752
+    - title: Variables and aliases
+      theory_id: 16670
+    - title: Help files
+      theory_id: 13309
+    - title: Getting data from net
+      theory_id: 13915
+    - title: Git branches
+      theory_id: 11189
+    - title: Customizing the on directive
+      theory_id: 27714
+    - title: Envs and secrets
+      theory_id: 22886
+    - title: Expressions
+      theory_id: 33516
+    - title: Working with environment variables
+      theory_id: 21828
+    - title: Libraries
+      theory_id: 8504
+    - title: Frameworks
+      theory_id: 6701
+    - title: JSON
+      theory_id: 6854
+    - title: Authentication and Authorization
+      theory_id: 14219
+    - title: Introduction to API
+      theory_id: 17007
+    - title: Environment variables
+      theory_id: 21817
+    - title: Introduction to software development models
+      theory_id: 11694
+    - title: Agile development
+      theory_id: 11702
+  3:
+    - title: Introduction to Generative AI and LLMs
+      theory_id: 44033
+    - title: General limitations of LLMs
+      theory_id: 43801
+    - title: Introduction to Prompt Engineering
+      theory_id: 43279
+    - title: Zero-shot and Few-shot prompting
+      theory_id: 45098
+    - title: Why learn to use AI tools
+      theory_id: 44370
+    - title: "AI: how does it all work"
+      theory_id: 43964
+    - title: ChatGPT overview
+      theory_id: 44193
+    - title: How to interact with AI
+      theory_id: 44440
+    - title: Craft your own prompt
+      theory_id: 44355
+  4:
+    - title: Introduction to OpenAI API
+      theory_id: 43699
+    - title: Arithmetic operations
+      theory_id: 18867
+    - title: Explore folders and files
+      theory_id: 12495
+    - title: Conditional statements and test checks
+      theory_id: 16582
+    - title: Loops and sequences
+      theory_id: 15978
+    - title: Globbing
+      theory_id: 24126
+    - title: Artifacts
+      theory_id: 35602
+    - title: Grep basic options
+      theory_id: 12713
+    - title: Grep useful options
+      theory_id: 14763
+    - title: Working with file modes and permissions
+      theory_id: 13961
+    - title: Homebrew package manager
+      theory_id: 17015
+    - title: Package manager APT
+      theory_id: 13148
+    - title: How to parse JSON with jq
+      theory_id: 29719
+    - title: Conditional execution
+      theory_id: 24305
+    - title: Files
+      theory_id: 13025
+    - title: File types
+      theory_id: 13017
+    - title: File modes and permissions
+      theory_id: 13953
+    - title: Regular expression
+      theory_id: 7580
+  5:
+    - title: GitHub and token authentication
+      theory_id: 38946
+    - title: Integration of GitHub Actions and Github PRs
+      theory_id: 47240
+  6:
+    - title: Outputs and contexts
+      theory_id: 36657
+    - title: Create a "hello world" composite action with input
+      theory_id: 44741

@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/46443#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 28 Jun 2024 15:34:32 UTC"
+record: 1

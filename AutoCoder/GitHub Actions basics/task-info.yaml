@@ -1,0 +1,23 @@
+type: edu
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/46444#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #3
+
+    The workflow does not run on push.
+  time: "Mon, 08 Jul 2024 11:23:43 UTC"
+record: -1
