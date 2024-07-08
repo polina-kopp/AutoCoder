@@ -1,30 +1,13 @@
-# your-repo-name/.github/workflows/first_workflow.yml
+name: Workflow Name
+# trigger
+  # Define the event here
 
-name: First Workflow    
-                                         
-on: push   
-                                               
 jobs:
-                         
-  first-job:                           
-    name: Name of first step                    
-    runs-on: ubuntu-latest                           
+  job_name:
+    runs-on: ubuntu-latest
     steps:
+      - name: Checkout Code
+        # actions/checkout
 
-      #step 1                           
-      - name: Print a greeting                             
-        run: echo Hi from our first workflow!
-
-      #step 2 
-      - uses: actions/checkout@v2.3.4    
-     
-  second-job:
-    strategy:
-      matrix:
-        runtimes: [10, 12, 14]
-        os_version: [ubuntu-latest, windows-latest]
-    runs-on: ${{ matrix.os_version}}
-    steps:
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.version }}
+      - name: Greeting Message
+        # Write the command here
